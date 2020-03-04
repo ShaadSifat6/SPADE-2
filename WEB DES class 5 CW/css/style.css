@@ -1,0 +1,149 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	background: #131B2E;
+}
+
+    /*starting of header*/
+
+.header{
+	min-height: 100px;
+	overflow: hidden;
+}
+.header .wrapper{
+	width: 80%;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+	width: 20%;
+}
+.nav{
+	float: right;
+	width: 70%;
+}
+.nav ul{
+	list-style: none;
+}
+.nav ul li{
+	float: left;
+	margin: 0px 45px;
+	padding-top: 30px;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.nav ul li a:hover{
+	color: #2c83c8;
+	transition: .5s;
+}
+
+  /*starting of cover image*/
+
+.cover{
+	overflow: hidden;
+	min-height: 400px;
+	background-image: url(../images/cover.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.cover_text{
+	width: 35%;
+	padding-top: 100px;
+	padding-left: 150px;
+}
+.cover_text h2{
+	font-size: 28px;
+	color: #fff;
+}
+.cover_text h1{
+	font-size: 35px;
+	color: #2c83c8;
+}
+.cover_text p{
+	color: #fff;
+}
+.cover_text button{
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	margin-top: 34px;
+	cursor: pointer;
+}
+.cover_text button:hover{
+	background: red;
+	color: #fff;
+	transition: 1s;
+}
+
+    /*starting of information*/
+
+.info{
+	overflow: hidden;
+	min-height: 200px;
+	padding: 100px 100px;
+}
+.part{
+	width: 30%;
+	overflow: hidden;
+	float: left;
+	margin: 0px 16px;
+	padding-right: 10px;
+	border-right: 1px solid grey;
+	color: #fff;
+}
+.head{
+	width: 100%;
+	min-height: 80px;
+}
+.head .icon{
+	float: left;
+	width: 15%;
+}
+.head .heading{
+	float: right;
+	width: 75%;
+}
+.part p{
+	margin-top: 10px;
+}
+.part:last-child{
+	border-right: none;
+}
+
+   /*starting of footer*/
+
+.footer{
+	min-height: 100px;
+	overflow: hidden;
+	color: #fff;
+	border-top: 1px solid black;
+	padding-top: 20px;
+}
+.footer .wrapper{
+	width: 80%;
+	margin: auto;
+}
+.links{
+	width: 60%;
+	float: left;
+}
+.links p{
+	margin: 30px 0px 0px 10px;
+}
+.foot_nav ul{
+	list-style: none;
+}
+.foot_nav ul li{
+	float: left;
+	margin: 0px 10px;
+}
+.foot-icon{
+	width: 30%;
+	float: right;
+}
